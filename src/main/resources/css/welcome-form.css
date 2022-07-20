@@ -1,0 +1,18 @@
+.btn:hover, .btn:focused{
+    -fx-text-fill: red;
+    -fx-border-color: red !important;
+}
+
+/*.btn{
+    -fx-font-family: "ubuntu";
+}*/
+
+#imgSysLogin{
+    -fx-border-color: red;
+    -fx-border-width: 5px;
+}
+
+#imgContainer:hover, #imgContainer:focused{
+    -fx-border-color: red transparent transparent transparent;
+    -fx-border-width: 5px;
+}

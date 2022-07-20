@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane focusTraversable="true" prefHeight="600.0" prefWidth="600.0" stylesheets="@../css/home-form.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeFormController">
+   <children>
+      <ImageView fitHeight="53.0" fitWidth="200.0" layoutX="20.0" layoutY="14.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@../image/logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="pneContainer" layoutY="99.0" prefHeight="425.0" prefWidth="600.0" />
+      <AnchorPane id="imgContainer" focusTraversable="true" layoutX="531.0" layoutY="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <ImageView id="imgSysLogin" fitHeight="53.0" fitWidth="49.0">
+               <image>
+                  <Image url="@../image/lock.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <FlowPane alignment="CENTER" hgap="10.0" layoutX="194.0" layoutY="516.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="82.0">
+               <image>
+                  <Image url="@../image/index.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="42.0">
+               <image>
+                  <Image url="@../image/ioc.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="42.0">
+               <image>
+                  <Image url="@../image/ceypetco.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>

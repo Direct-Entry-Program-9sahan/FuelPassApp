@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="409.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <ImageView fitHeight="53.0" fitWidth="200.0" layoutX="59.0" layoutY="205.0">
+         <image>
+            <Image url="@../image/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="177.0" layoutY="121.0" text="National Fuel Pass App">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="101.0" fitWidth="104.0" layoutX="55.0" layoutY="93.0">
+         <image>
+            <Image url="@../image/fuel1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="394.0" layoutY="202.0">
+         <image>
+            <Image url="@../image/ceypetco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="460.0" layoutY="202.0">
+         <image>
+            <Image url="@../image/ioc.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblStatus" layoutX="59.0" layoutY="290.0" text="Loading...">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
